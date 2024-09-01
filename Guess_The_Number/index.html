@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <title>Document</title>
+  <style>
+    * {
+      background-color: #00796b;
+    }
+
+    .Again {
+
+
+
+      cursor: pointer;
+      margin-left: 20rem;
+      margin-top: 1rem;
+
+    }
+
+    .Check {
+      cursor: pointer;
+
+      margin-top: 1rem;
+    }
+
+    h1 {
+      margin-left: 29rem;
+      font-size: 50px;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-left: 55rem;
+      margin-top: -30px;
+    }
+
+    .number {
+      position: relative;
+      width: 90px;
+      height: 75px;
+      background-color: white;
+      font-size: 50px;
+      left: 40rem;
+      top: -60px;
+      padding-left: 30px;
+    }
+
+    hr {
+      height: 10px;
+      background-color: white;
+      border: none;
+      margin-top: 100px;
+    }
+
+    input[type="text"] {
+      height: 50px;
+      width: 80px;
+      background: white;
+      border: none;
+      margin-left: 20rem;
+    }
+
+    .left {
+      margin-left: 20rem;
+      margin-top: 20px;
+    }
+
+    .right {
+      margin-right: 270px;
+      margin-top: -40px;
+      font-size: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="g">
+    <div class="c1">
+      <button class="btn  waves-effect waves-light Again" onclick="returnFunction()">Again!</button>
+      <h2>Between 1 to 10</h2>
+      <h1>Guess My Number!</h1>
+      <hr />
+      <div class="number">?</div>
+    </div>
+    <div class="left">
+      <div class="input-field col s6">
+
+        <input id="icon_prefix" type="text" class="guess" placeholder="Enter the number" />
+
+      </div>
+      <button class="Check waves-effect waves-light btn" onclick="printFunction()">check</button>
+    </div>
+    <div class="right">
+      <p class="message">Start guessing...</p>
+      <p class="l-score">Score:<span class="score">10</span></p>
+      <p class="l-highscore">Highscore:<span class="highscore">0</span></p>
+    </div>
+  </div>
+
+  <script src="no.js"></script>
+</body>
+
+</html>
