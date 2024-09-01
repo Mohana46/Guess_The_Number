@@ -3,6 +3,10 @@
 ## Description
 
 A simple number guessing game where the player has to guess a secret number between 1 and 10. The player gets feedback on whether their guess is too high, too low, or correct. The score decreases with each incorrect guess, and the game can be reset.
+## Demo
+You can try out the game by visiting the following link:
+
+[Live Demo](https://guess-the-number-blcj.onrender.com/)
 
 ## Features
 
